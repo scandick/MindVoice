@@ -18,9 +18,19 @@
    pip install -r requirements.txt
    ```
 5. Получите токен для своего телеграм‑бота через [BotFather](https://t.me/BotFather).
-   Сохраните его и задайте переменную окружения `TELEGRAM_BOT_TOKEN`:
+   Сохраните его и задайте переменную окружения `TELEGRAM_BOT_TOKEN`.
+
+   **Linux/macOS**
    ```bash
    export TELEGRAM_BOT_TOKEN=<ваш_токен>
+   ```
+   **Windows PowerShell**
+   ```powershell
+   $env:TELEGRAM_BOT_TOKEN="<ваш_токен>"
+   ```
+   **Windows CMD**
+   ```cmd
+   set TELEGRAM_BOT_TOKEN=<ваш_токен>
    ```
 6. Запустите бота командой:
    ```bash
